@@ -1,0 +1,50 @@
+# Python and environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+# Secrets and settings
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+.vscode/
+.idea/
+.agents/
+.codex/
+# Downloaded models and runtime settings
+weights/*
+!weights/.gitkeep
+*.pt
+*.pth
+*.onnx
+*.ts
+*.engine
+# Data and training results
+datasets/
+data/
+runs/
+logs/
+*.log
+*.cache
+# Local extras and presentation work
+assets/
+docs/
+scripts/
+videos/
+chinese-ui-check.png
+.ppt-build/
+交付/
+*.pptx
+*.pdf
+# Keep only the default demonstration image
+images/*
+!images/office_4.jpg
+!images/ATTRIBUTION.md

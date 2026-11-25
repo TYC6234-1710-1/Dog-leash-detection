@@ -1,0 +1,11 @@
+# YOLO Vision Studio: runtime dependencies (works on Linux, Windows and macOS).
+# Tested with Python 3.12, ultralytics 8.4.116, streamlit 1.61.1, torch 2.8.
+#
+# GPU: pip installs the default torch build for your platform. For a specific CUDA build,
+# install torch first from https://pytorch.org/get-started/locally/ and then this file.
+
+ultralytics>=8.4.116        # YOLO26, YOLOE-26, RT-DETR, YOLO World v2
+streamlit>=1.50
+pandas>=2.0
+pillow>=10.0
+clip @ git+https://github.com/ultralytics/CLIP.git   # YOLO World v2 text encoder
